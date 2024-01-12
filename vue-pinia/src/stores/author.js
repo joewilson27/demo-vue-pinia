@@ -16,7 +16,6 @@ export const useAuthorStore = defineStore({
     async fetchAuthors() {
       this.authors = await fetch('https://jsonplaceholder.typicode.com/users')
       .then((response) => response.json())
-      console.log('this.authors', this.authors)
     }
   }
 })

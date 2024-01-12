@@ -17,5 +17,6 @@
       <RouterLink :to="`/post/${post.id}`">{{ post.title }}</RouterLink>
       <p>{{ post.body }}</p>
     </p>
+    xxx
   </div>
 </template>

@@ -25,7 +25,7 @@ const router = createRouter({
       component: PostView 
     },
     { 
-      ath: '/author/:username', 
+      path: '/author/:username', 
       name: 'author', 
       component: AuthorView 
     },
